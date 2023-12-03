@@ -1,3 +1,3 @@
 planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
-print("The last planet is", planets[-1])
-print("The penultimate planet is", planets[-2])
+jupiter_index = planets.index("Jupiter")
+print("Jupiter is the", jupiter_index + 1, "planet from the sun")
